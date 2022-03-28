@@ -1,6 +1,8 @@
 import { defineConfig } from 'vite';
 import { VitePluginNode } from 'vite-plugin-node';
+// require('dotenv').config();
 
+// let port = process.env.PORT as unknown as number;
 export default defineConfig({
   // ...vite configures
   server: {
